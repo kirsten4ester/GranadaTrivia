@@ -8,7 +8,7 @@ trivia game testing players on the city's history as well as appeals. After each
 Trivia 
 On granada… 
 
-*** PART 1: *** -- day 1 (Sunday 12.8)
+### PART 1:  -- day 1 (Sunday 12.8)
 
 Have all questions set. Have pictures selected. 
 Questions: 
