@@ -1,6 +1,6 @@
 let questions = [
     {
-        question: 'N.1 // The city's symbol is ________',
+        question: 'N.1 // The citys symbol is ________',
         picture: './images/N1Q.jpg',
         right_answer: 'The pomegranate',
         wrong_answers: [
@@ -29,6 +29,7 @@ let questions = [
             'Don Hernán Cortés'
         ]
     },
+    {
         question: 'N.4 // Granada is located at the foot of which mountain range?',
         picture: './images/N4Q.jpg',
         right_answer: 'Sierra Nevada',
@@ -38,6 +39,7 @@ let questions = [
             'Montserrat'
         ]
     },
+    {
     question: 'N.5 // Which iconic Spanish author was from Granada?',
         picture: './images/N5Q.jpg',
         right_answer: 'Federico García Lorca',
@@ -47,7 +49,8 @@ let questions = [
             'Lope de Vega'
         ]
     },
-    question: 'N.6 // In 1330, Granada ranked the ___ most populated city in Europe.',
+    {
+        question: 'N.6 // In 1330, Granada ranked the ___ most populated city in Europe.',
         picture: './images/N6Q.jpg',
         right_answer: '1st',
         wrong_answers: [
