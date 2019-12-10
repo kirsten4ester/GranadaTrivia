@@ -11,6 +11,7 @@ On granada…
 ### PART 1:  -- day 1 (Sunday 12.8)
 
 Have all questions set. Have pictures selected. 
+
 Questions: 
 The city’s symbol = (granada, spanish for pomegranate) 
 What is the city’s symbol?
@@ -27,7 +28,7 @@ Granada is located at the foot of what mountain range?
 pic: Sierra Nevada 
 
 Something Garcia Lorca
-Which American author moved and resided in Granada? 
+Which author resided in Granada? 
 = Federico Garcia Lorca
 	Pic: park
 
@@ -50,7 +51,8 @@ alhambra fact
 
 Catholic monarchs -- the first monarchs of spain 
 Who were the first monarchs of Spain? 
-= buried in la catedral 
+=  to Queen Isabella I of Castile and King Ferdinand II of Aragon
+    buried in la catedral 
 	Pic: catedral
 
 In 1330, Granada ranked the ___ most populated city in Europe. 
@@ -61,7 +63,7 @@ D. 24th
 Answer: first. It had two mosques, the Alhambra being one of the largest. 
 Pic: Alhambra 
 
-The coast of Granada is called Costa Tropical. Name it’s 3 main municipalities:
+The coast of Granada is called Costa Tropical. Name its main municipalities:
 = Almuñécar, Salobreña, Motril 
 Pic: Almuñécar 
 
@@ -72,20 +74,24 @@ Pic: river
 something toros?
 Cuevas
 
-*** PART 2: *** -- day 2 Dec 9
+### PART 2:  -- day 2 Dec 9
 Set your html & CSS 
 
-*** PART 3: *** day 3 - 5 (Dec 10-12)
+### PART 3: *** day 3 - 5 (Dec 10-12)
 Incorporating your JavaScript 
+Figuring scorability 
 
 
-BRONZE:
+BRONZE: questions are printed. Player selects/ inputs answer. Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
+Heavy in HTML/ CSS with detail to design. Using pictures of Granada to represent each cooresponding questions. 
+Javascript to create click events for selecting answers to multiple choice questions (?)
+
 
 SILVER:
 
 GOLD:
-Heavy in HTML/ CSS focusing on design. Using pictures of Granada to represent the cooresponding question. 
-Javascript to create click events for selecting answers to multiple choice questions (?)
+choose to play in english or in spanish .. 
+After game, lead to second set of questions on la alhambra
 Implement a "hint" feature (?) -- click/popup
 
 
