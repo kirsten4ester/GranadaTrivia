@@ -137,7 +137,4 @@ Writing  JavaScript
 Figuring scorability
 Make responsive!!
 
-
-
-Questions// 
-
+## ISSUES / RESOLUTIONS:

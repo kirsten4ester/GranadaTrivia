@@ -25,18 +25,27 @@ body {
     line-height: 70px;
 
     text-align: center;
-    margin: 5% auto;
+    /* margin: 5% auto; */
+    margin: 3% auto 1% auto;
     background-color: black;
     padding: 50px auto;
     border:none;
     outline: none;
   }
 
+  @media screen and (max-width: 450px) {
+    .title {
+      height: 120px; 
+      line-height: 60px;
+    }
+  }
+
 #container {
     color: white;
     height: 400px;
     width : 900px;
-    margin : 10px auto;
+    /* margin : 10px auto; */
+    margin: 0 auto;
     position: relative;
 }
 
@@ -62,6 +71,13 @@ body {
   margin: 25% auto;
 }
 
+ /* HOW DO I GET THIS IN THE MIDDLE OF MOBILE SCREEN */
+@media screen and (max-width: 450px) {
+  #vamos {
+    margin: auto; 
+  }
+}
+
 #vamos:hover {
   font-size: 35px;
   border: 4px solid white;
@@ -77,6 +93,12 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  @media screen and (max-width: 450px) {
+    .modal {
+      margin: 20% auto; 
+    }
   }
   
 .modal-content {
@@ -105,6 +127,13 @@ body {
     color: white;
   }
 
+  @media screen and (max-width: 450px) {
+    .modal-header {
+      font-size: 10px; 
+      padding: 10px;
+    }
+  }
+
 .modal-body {
     padding: 10px 20px;
     font-family: 'Cormorant Garamond', serif;
@@ -117,17 +146,36 @@ body {
   font-size: 24px;
 }
 
+@media screen and (max-width: 450px) {
+  .modal-body h3 {
+    font-size: 18px; 
+  }
+}
+
 .modal-footer {
     background: black;
     padding: 10px;
     color: white;
     text-align: center;
   }
+
+  @media screen and (max-width: 450px) {
+    .modal-footer {
+      font-size: 10px; 
+      padding: 10px;
+    }
+  }
   
 .closeBtn {
     color: #fff;
     float: right;
     font-size: 30px;
+  }
+
+  @media screen and (max-width: 450px) {
+    .closeBtn {
+      font-size: 20px; 
+    }
   }
   
 .closeBtn:hover,.closeBtn:focus {
@@ -147,19 +195,40 @@ body {
     height : 600px;
 }
 
+@media screen and (max-width: 450px) {
+  #image { 
+    /* width: 200px;
+    height: 300px; */
+    /* width: 100%;
+    height: 100%; */
+  }
+}
+
 #image img{
     width : 400px;
     height : 600px; 
 } 
 
+@media screen and (max-width: 450px) {
+  #image img { 
+    /* width: 100%;
+    height: 100%; */
+  }
+}
+
+#qBox {
+  padding: 15px;
+  height: 60px;
+  background: black;
+  margin: 20px 0px;
+}
+
 #question {
     z-index: 1;  
     width: 100%;
     height : 30px;
-    margin: 20px 0px;
 
-    padding: 15px;
-    background: black;
+    /* padding: 15px; */
     font-family: 'Cinzel', serif;
     letter-spacing: 4px;
     font-size: 18px;
@@ -239,13 +308,11 @@ body {
 }
 
 #scoreContainer {
-  height: 200px;
+  height: 350px;
   /* width : 900px; */
   width: 100%;
-  margin : 50px auto;
+  margin : 0 auto;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: auto; 
 }
-
-
