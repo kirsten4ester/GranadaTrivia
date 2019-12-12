@@ -59,6 +59,7 @@ let questions = [
             '7th'
         ]
     },
+    {
     question: 'N.7 // The coast of Granada is called Costa Tropical. Name its main municipalities.',
         picture: './images/N7Q.jpg',
         right_answer: 'All of the above',
@@ -68,6 +69,7 @@ let questions = [
             'Motril'
         ]
     },
+    {
     question: 'N.8 // Granada was under whose rule prior to its monarchy?',
         picture: './images/N8Q.jpg',
         right_answer: 'Islamic',
@@ -77,7 +79,8 @@ let questions = [
             'Iberian'
         ]
     },
-    question: 'N.9 // Granada's La Alhambra sdf ',
+    {
+    question: "N.9 // Granada's La Alhambra sdf ",
         picture: './images/N9Q.jpg',
         right_answer: '',
         wrong_answers: [
@@ -86,6 +89,7 @@ let questions = [
             'answer three'
         ]
     },
+    {
     question: 'N.10 // In Granada, you receive this with every drink.',
     picture: './images/N10Q.jpg',
     right_answer: 'a tapa',
@@ -95,6 +99,7 @@ let questions = [
         'free parking'
     ]
     },
+    {
     question: 'N.11 // On work days, businesses close for this.',
     picture: './images/N11Q.jpg',
     right_answer: 'siesta',

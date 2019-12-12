@@ -3,20 +3,17 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-weight: 400;
   }
 
 #home {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
     background-image: url("https://i.imgur.com/Aqvs02t.jpg");
+    /*ISMAS: background-image: url("https://i.imgur.com/7T86Xl4.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("https://i.imgur.com/7T86Xl4.jpg"); */
     background-color: black;
     position: fixed;
-    top:0;
   }
 
 .title {
@@ -30,116 +27,224 @@ body {
     text-align: center;
     margin: 5% auto;
     background-color: black;
-
     padding: 50px auto;
-
-    border-radius: 2px;
     border:none;
     outline: none;
   }
-  
-/* 
-I THINK I CAN DELETE THIS? 
-#vamosButton {
-    background-color: black;
-    box-shadow: 0 2px 5px 0 rgba(143, 47, 47, 0.26);
-    line-height: 32px;
-    border-radius: 2px;
-    border:none;
-    outline: none;
-    width: 100%;
-    color: white;
-    font-size: 28px;
-    padding: 20px 50%;
-    cursor: pointer;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 5px;
-  }
 
-#vamosButton:hover {
-      font-size: 40px;
-  }  */
-
-/* .button {
-    background: black;
-    padding: 1em 2em;
+#container {
     color: white;
-    border: 0;
-  }
+    height: 400px;
+    width : 900px;
+    margin : 10px auto;
+    position: relative;
+}
+
+#vamos {
+  line-height: 32px;
+  border: 2px solid white;
+  width: 100px;
+  height: 30px;
+  /* position: absolute; */
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+
+  /* left: 300px;
+  top: 170px; */
+  /* top: 50%;
+  left: 50%; */
+  margin: 25% auto;
+}
+
+#vamos:hover {
+  font-size: 35px;
+  border: 4px solid white;
+}
   
-.button:hover {
-    background: rgba(0, 0, 0, 0.2);
-  } */
-  
-  .modal {
+.modal {
     display: none;
     position: fixed; 
-  /* z-index= order of elements... the higher the z index the more up front it will be */
     z-index: 1;
     left: 0; 
     top: 0;
     width: 100%;
     height: 100%;
-  /*   this will give it a scroll bar if necessary */
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
   }
   
-  .modal-content {
+.modal-content {
     background-color: #f4f4f4; */
     background-image: url ("https://i.imgur.com/h9w9O3Ol.jpg?1");
-  /*   setting top and buttom saying that we want it 20% down on the screen and auto for left and right because we want it in the middle  */
     margin: 20% auto; 
-    /* padding: 20px; */
     width: 70%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
     animation-name: modalopen;
-    animation-duration: 1s;
+    /* animation-duration: 1s; */
   }
 
-  .modal-header h2, .modal-footer h3 {
+.modal-header h2, .modal-footer h3 {
     margin: 0;
     text-align: center;
     font-family: 'Cinzel', serif;
     letter-spacing: 15px;
     width: 100%;
     text-align: center;
-
     /* margin: 10% auto; */
   }
 
-  .modal-header{
+.modal-header{
     background: black;
     padding: 15px;
     color: white;
   }
 
-  .modal-body {
+.modal-body {
     padding: 10px 20px;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
   } 
 
-  .modal-footer {
+.modal-body h3 {
+  letter-spacing: 9px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.modal-footer {
     background: black;
     padding: 10px;
     color: white;
     text-align: center;
   }
   
-  .closeBtn {
+.closeBtn {
     color: #fff;
     float: right;
     font-size: 30px;
   }
   
-  .closeBtn:hover,.closeBtn:focus {
+.closeBtn:hover,.closeBtn:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
   
-  @keyframes modalopen {
+@keyframes modalopen {
     from{opacity: 0}
     to {opacity: 1}
   }
-  
+
+#image{
+    position: absolute;
+    width : 400px;
+    height : 600px;
+}
+
+#image img{
+    width : 400px;
+    height : 600px; 
+} 
+
+#question {
+    z-index: 1;  
+    width: 100%;
+    height : 30px;
+    margin: 20px 0px;
+
+    padding: 15px;
+    background: black;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#answers {
+    position: absolute;  
+    width : 480px;
+    right : 0;
+    top : 150px;
+    padding : 10px
+}
+
+.answer {
+    background: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width : 170px;
+    text-align: center;
+    cursor: pointer;
+    padding : 10px 20px;
+    margin: 10px;
+}
+
+.answer:hover {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#timer { 
+  position: absolute;
+  height : 100px;
+  width : 200px;
+  bottom : -60px;
+  right: 110px;
+  text-align: center;
+}
+
+#counter {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+#btimerBar {
+  width : 150px;
+  height : 10px;
+  background-color: white;
+  margin-left : 25px;
+}
+
+#timerBar {
+  height : 10px;
+  background-color: black;
+  margin-top : -10px;
+  margin-left : 25px;
+}
+
+#progress {
+  width : 400px;
+  position: absolute;
+  bottom : -70px;
+  right : 0px;
+  padding: 5px;
+  text-align: right;
+}
+
+.prog {
+  width : 15px;
+  height : 15px;
+  display: inline-block;
+  margin-left : 10px;
+  margin-right : 10px;
+}
+
+#scoreContainer {
+  height: 200px;
+  width : 800px;
+  margin : 50px auto;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 1; 
+}
+
+

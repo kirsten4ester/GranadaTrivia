@@ -76,24 +76,30 @@ Cuevas
 
 ### PART 2:  -- day 2 Dec 9
 Set your html & CSS 
+design home page, complete wireframe
 
 ### PART 3: *** day 3 - 5 (Dec 10-12)
-Incorporating your JavaScript 
-Figuring scorability 
+Writing  JavaScript 
+Figuring scorability
 
+Make responsive!!
 
-BRONZE: questions are printed. Player selects/ inputs answer. Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
+BRONZE: 
+questions + answer choices are printed. 
+Player selects/ inputs answer (butttons). 
 Heavy in HTML/ CSS with detail to design. Using pictures of Granada to represent each cooresponding questions. 
 Javascript to create click events for selecting answers to multiple choice questions (?)
 
-
 SILVER:
+set a timer
 
 GOLD:
+Implement a "hint" feature (?) -- click/popup
+incorporate modals with corresponding pictures and informative excerpt
+--> Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
 choose to play in english or in spanish .. 
 After game, lead to second set of questions on la alhambra
-Implement a "hint" feature (?) -- click/popup
 
 
 Questions// 
-What formatting do I want to make each page transition to the next? 
+
