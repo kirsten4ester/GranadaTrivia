@@ -137,8 +137,8 @@ body {
 .modal-body {
     padding: 10px 20px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 28px;
   } 
 
 .modal-body h3 {
@@ -167,7 +167,7 @@ body {
   }
   
 .closeBtn {
-    color: #fff;
+    color: white;
     float: right;
     font-size: 30px;
   }
@@ -179,9 +179,9 @@ body {
   }
   
 .closeBtn:hover,.closeBtn:focus {
-    color: #000;
     text-decoration: none;
     cursor: pointer;
+    font-weight: bolder;
   }
   
 @keyframes modalopen {
@@ -309,10 +309,32 @@ body {
 
 #scoreContainer {
   height: 350px;
-  /* width : 900px; */
-  width: 100%;
+  width : 875px;
+  /* width: 100%; */
   margin : 0 auto;
   background-color: black;
   opacity: 0.9;
   z-index: auto; 
+
+  padding: 20px;
+
+  /* message-text: */
+  font-family: 'Cinzel', serif;
+  letter-spacing: 20px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  text-align: center;
 }
+
+/* score% text: */
+#scoreContainer p {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 40px;
+  margin: 10% auto;
+  text-align: center;
+} 

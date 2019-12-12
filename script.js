@@ -136,7 +136,7 @@ let questions = [
         correct: "C",
     },
     {
-        question: "N.11 // On work days, businesses close for this.",
+        question: "N.11 // On work days, businesses close midday for this.",
         imgSrc: './images/N11Q.jpg',
         answerA: "mass",
         answerB: "soccer",
@@ -234,7 +234,7 @@ function renderCounter () {
          runningQuestion++;
          printQuestion();
      } else {
-         // end the quiz and show the score:
+         // ends quiz and shows score:
          clearInterval(TIMER);
          scoreRender();
      }
@@ -251,10 +251,16 @@ function renderCounter () {
  }
 
  // FUNCTION TO RENDER SCORE:
+ // remove hiddin with "block" 
+ // need to calculate the amlount of quewsions ths player answered:
  function scoreRender () {
      scoreBox.style.display = "block";
-     
-// need to calculate the amlount of quewsions ths player answered:
-     const scorePercent = Math.round(100 * score / questions.length);
-
+     const scorePercent = Math.round(100 * score/questions.length);
+     let scorePrint = (scorePercent >= 80) ? "¡excelente!" :
+            (scorePercent >= 60) ? "¡bien hecho!" :
+            (scorePercent >= 40) ? "bastante bien..." :
+            (scorePercent >= 20) ? "lo siento..." :
+            "¡Super mal!";
+     scoreBox.innerHTML = scorePrint;
+     scoreBox.innerHTML += "<p>"+ scorePercent +"%</p>";
  }
