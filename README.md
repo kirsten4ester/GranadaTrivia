@@ -1,17 +1,71 @@
 # ProjectOne
 Project 1: Make a game. 
 
-TRIVIA ON GRANADA, SPAIN 
-What is on//
-trivia game testing players on the city's history as well as appeals. After each question is answered, player will be presented with a short excerpt on each "theme" or question to make it all the more informative/ educational. 
+## Project Schedule: 
 
-Trivia 
-On granada… 
+Day 1 -- Sun 12.8: 
+- Set out readme
+- Have all questions set. Have all corresponding pictures selected. 
+- Draw out wireframe 
+Day 2 -- Mon 12.9: 
+- Set your html & CSS 
+- design home page reflecting wireframe
+Day 3 -- Tues 12.10: 
+- Set all modals for each corresponding question 
+- pseudocode js & technologies to use for printing q/a, scoring questions
+Day 4 -- Wed 12.11
+- implement js for printing q/a & scoring
+Day 5 -- Thurs 12.12
+- consider last day! 
+- finishing touches on any imperfections 
+- if ahead, research & implement any gold level features 
+Day 6 -- Fri 12.13
+- PRESENTATIONS
+- edit any images, questions, small details 
+
+## GAME DESCRIPTION: 
+TRIVIA ON GRANADA, SPAIN 
+Granada Trivia is a trivia game testing players on the city's history as well as many appeals meant to showcase the city while educating player.
+
+## WIREFRAME: 
+![wireFrame](WireFrame.JPG)
+
+## BRONZE, SILVER, GOLD: 
+BRONZE: 
+questions + answer choices are printed. 
+Player selects/ inputs answer (butttons). 
+Heavy in HTML/ CSS with detail to design. Using pictures of Granada to represent each cooresponding questions. 
+Javascript to create click events for selecting answers to multiple choice questions (?)
+
+SILVER:
+set a timer
+
+GOLD:
+Implement a "hint" feature -- modal
+incorporate modals with corresponding pictures and informative excerpt
+--> Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
+choose to play in english or in spanish .. 
+After game, lead to second set of questions on la alhambra
+
+## COMPONENTS: 
+INTRODUCTION: 
+There is a modal introductory pop-up to welcome players to the game offering a short informative exceprt. Gives brief instructions to begin.
+
+HOME/LANDING PAGE: 
+This is where each question and corresponding set of answers/ pictures will print.
+At the bottom will be a progress bar and a timer.
+Players will select one of the four options, if correct, progress bar will turn black, if wrong, white
+Timer will count to ten along with a timer bar 
+
+WIN/LOSE
+Once indexes through all questions, player will be presented their score 
+
+## DISCOVERIES:
+- progress bar
+- timer 
+- modals! 
 
 ### PART 1:  -- day 1 (Sunday 12.8)
-
-Have all questions set. Have pictures selected. 
-
 Questions: 
 The city’s symbol = (granada, spanish for pomegranate) 
 What is the city’s symbol?
@@ -81,24 +135,8 @@ design home page, complete wireframe
 ### PART 3: *** day 3 - 5 (Dec 10-12)
 Writing  JavaScript 
 Figuring scorability
-
 Make responsive!!
 
-BRONZE: 
-questions + answer choices are printed. 
-Player selects/ inputs answer (butttons). 
-Heavy in HTML/ CSS with detail to design. Using pictures of Granada to represent each cooresponding questions. 
-Javascript to create click events for selecting answers to multiple choice questions (?)
-
-SILVER:
-set a timer
-
-GOLD:
-Implement a "hint" feature (?) -- click/popup
-incorporate modals with corresponding pictures and informative excerpt
---> Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
-choose to play in english or in spanish .. 
-After game, lead to second set of questions on la alhambra
 
 
 Questions// 

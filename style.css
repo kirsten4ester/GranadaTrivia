@@ -82,7 +82,7 @@ body {
 .modal-content {
     background-color: #f4f4f4; */
     background-image: url ("https://i.imgur.com/h9w9O3Ol.jpg?1");
-    margin: 20% auto; 
+    margin: 15% auto; 
     width: 70%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
     animation-name: modalopen;
@@ -109,12 +109,12 @@ body {
     padding: 10px 20px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 17px;
+    line-height: 24px;
   } 
 
 .modal-body h3 {
   letter-spacing: 9px;
   font-size: 24px;
-  line-height: 24px;
 }
 
 .modal-footer {
@@ -170,7 +170,7 @@ body {
     position: absolute;  
     width : 480px;
     right : 0;
-    top : 150px;
+    top : 140px;
     padding : 10px
 }
 
@@ -240,11 +240,12 @@ body {
 
 #scoreContainer {
   height: 200px;
-  width : 800px;
+  /* width : 900px; */
+  width: 100%;
   margin : 50px auto;
-  background-color: white;
+  background-color: black;
   opacity: 0.8;
-  z-index: 1; 
+  z-index: auto; 
 }
 
 
