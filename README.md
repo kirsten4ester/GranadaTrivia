@@ -42,10 +42,11 @@ set a timer
 
 GOLD:
 Implement a "hint" feature -- modal
-incorporate modals with corresponding pictures and informative excerpt
---> Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information
-choose to play in english or in spanish .. 
-After game, lead to second set of questions on la alhambra
+Incorporate modals with corresponding pictures and informative excerpt
+--> Modal pops up for each separate question with a congrats/ not quite also offer short excerpt of information.
+OR, after score prints, a "click here" to see the correct answers.
+Choose to play in English or in Spanish .. 
+After game, lead to second set of questions on La Alhambra.
 
 ## COMPONENTS: 
 INTRODUCTION: 
@@ -138,3 +139,4 @@ Figuring scorability
 Make responsive!!
 
 ## ISSUES / RESOLUTIONS:
+Adding a link in the scorebox through JS

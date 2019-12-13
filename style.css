@@ -318,7 +318,7 @@ body {
   margin : 0 auto;
   background-color: black;
   opacity: 0.9;
-  z-index: auto; 
+  z-index: 5; 
 
   padding: 20px;
 
@@ -344,10 +344,10 @@ body {
 } 
 
 /* thank you message... not working */
-#sBox {
+/* #sBox {
   color: red;
   display: block;
   /* z-index: 2; */  
-  opacity: 0.9;
-  z-index: auto; 
-}
+  /* opacity: 0.9;
+  z-index: auto;  
+} */ 
