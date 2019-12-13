@@ -28,7 +28,7 @@ body {
     /* margin: 5% auto; */
     margin: 3% auto 1% auto;
     background-color: black;
-    padding: 50px auto;
+    /* padding: 50px auto; */
     border:none;
     outline: none;
   }
@@ -102,7 +102,7 @@ body {
   }
   
 .modal-content {
-    background-color: #f4f4f4; */
+    background-color: white; 
     background-image: url ("https://i.imgur.com/h9w9O3Ol.jpg?1");
     margin: 15% auto; 
     width: 70%;
@@ -140,6 +140,10 @@ body {
     font-size: 18px;
     line-height: 28px;
   } 
+
+  ul {
+    list-style-type: square;
+  }
 
 .modal-body h3 {
   letter-spacing: 9px;
@@ -185,7 +189,7 @@ body {
   }
   
 @keyframes modalopen {
-    from{opacity: 0}
+    from {opacity: 0}
     to {opacity: 1}
   }
 
@@ -318,7 +322,7 @@ body {
 
   padding: 20px;
 
-  /* message-text: */
+  /* score message-text: */
   font-family: 'Cinzel', serif;
   letter-spacing: 20px;
   color: white;
@@ -335,6 +339,15 @@ body {
   letter-spacing: 5px;
   color: white;
   font-size: 40px;
-  margin: 10% auto;
+  margin: 5% auto;
   text-align: center;
 } 
+
+/* thank you message... not working */
+#sBox {
+  color: red;
+  display: block;
+  /* z-index: 2; */  
+  opacity: 0.9;
+  z-index: auto; 
+}

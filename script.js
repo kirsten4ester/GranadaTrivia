@@ -118,12 +118,12 @@ let questions = [
         correct: "A",
     },
     {
-        question: "N.9 // Granada's La Alhambra sdf .",
+        question: "N.9 // ______ people visit the Alhambra a day.",
         imgSrc: './images/N9Q.jpg',
-        answerA: "correct",
-        answerB: "wrong",
-        answerC: "wrong",
-        answerD: "wrong",
+        answerA: "6,000",
+        answerB: "600",
+        answerC: "60",
+        answerD: "60,000",
         correct: "A",
     },
     {
@@ -260,7 +260,8 @@ function renderCounter () {
             (scorePercent >= 60) ? "¡bien hecho!" :
             (scorePercent >= 40) ? "bastante bien..." :
             (scorePercent >= 20) ? "lo siento..." :
-            "¡Super mal!";
+            "¡Súper mal!";
      scoreBox.innerHTML = scorePrint;
      scoreBox.innerHTML += "<p>"+ scorePercent +"%</p>";
+     scoreBox.innerHTML += "<hr><p>Thanks for playing!</p>"
  }
